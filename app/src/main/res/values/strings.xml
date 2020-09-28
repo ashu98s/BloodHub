@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Blood Hub</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="app1"> Be a Donor ! </string>
+    <string name="todo">TODO</string>
+    <string name="user1"> ANDROID BLOOD BANK </string>
+    <string name="user2">Sign In</string>
+    <string name="user3">Sign Up</string>
+    <string name="header1">Android Blood Bank</string>
+    <string name="header2">www.BloodHub.com</string>
+    <string name="todo1">TODO</string>
+    <string name="menu5"> About </string>
+    <string name="menu2"> Share </string>
+    <string name="menu3"> Rate Us </string>
+    <string name="menu4"> Exit </string>
+    <string name="hint"> Name </string>
+    <string name="hint1"> Email </string>
+    <string name="hint2"> Contact </string>
+    <string name="hint3"> Remember Me </string>
+    <string name="hint5">Password</string>
+    <string name="hin">Blood Group</string>
+    <string name="todo2">TODO</string>
+    <string name="radio">Male</string>
+    <string name="radio1">Female</string>
+    <string name="four">Register</string>
+    <string name="five">Login</string>
+    <string name="six">Logout</string>
+    <string name="flop">TODO</string>
+    <string name="text">Edit Photo</string>
+    <string name="upload">Upload Photo</string>
+    <string name="text1">Edit </string>
+    <string name="text2">Save </string>
+    <string name="text3">Tap to Call</string>
+    <string name="pic">TODO</string>
+    <string name="pic1">TODO</string>
+    <string name="pi">pi</string>
+    <string name="Home">nav_home</string>
+    <string name="about">About</string>
+    <string name="share"> Share</string>
+    <string name="rate">Rate Us</string>
+    <string name="exit">Exit</string>
+    <string name="call">*** For Emergency purpose just Tap the button to call the Ambulance !*** </string>
+    <string name="sign">TODO</string>
+    <string name="image">TODO</string>
+    <string name="call2">A blood bank is a center where blood gathered as a result of blood donation is stored and preserved for later use in blood transfusion. The term "blood bank" typically refers to a division of a hospital where the storage of blood product occurs and where proper testing is performed (to reduce the risk of transfusion related adverse events). However, it sometimes refers to a collection center, and indeed some hospitals also perform collection.</string>
+
+
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="30dp"
+    android:background="@drawable/backtwo"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/logo"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/splash"
+        android:contentDescription="@string/flop" />
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/hint"
+            android:drawableStart="@drawable/ic_user"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorTextHint" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_button">
+
+        <EditText
+            android:id="@+id/email"
+            android:drawableStart="@drawable/ic_mail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/hint1"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorTextHint" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_button">
+
+        <EditText
+            android:id="@+id/password"
+            android:drawableStart="@drawable/ic_pass"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/hint5"
+            android:inputType="textPassword"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorTextHint" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/contact"
+            android:drawableStart="@drawable/ic_phone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/hint2"
+            android:inputType="text"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorTextHint" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/bloodgroup"
+            android:drawableStart="@drawable/ic_bgroup"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/hin"
+            android:inputType="text"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorTextHint" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loading"
+        android:layout_marginTop="30dp"
+        android:visibility="gone"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/four"
+        android:id="@+id/btn_regist"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/round_button"/>
+
+
+</LinearLayout>
