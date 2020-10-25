@@ -1,6 +1,6 @@
 # BloodHub
 
-Blood Bank Management Android App
+Blood Bank Management Android Application
 
 # Description
 
