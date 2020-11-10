@@ -8,7 +8,7 @@ Blood Hub is a free blood donation application available for android smartphones
 
 ### Language Used :
 
-Java, Android, XML, SQLite, Android Studio
+Java, Android, XML, SQLite, Android Studio, Figma
 
 ### User Interface :
 
