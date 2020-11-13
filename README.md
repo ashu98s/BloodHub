@@ -1,4 +1,4 @@
-### BloodHub App :
+### BloodHub Application :
 
 Blood Bank Management Android Application
 
